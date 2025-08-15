@@ -1,0 +1,25 @@
+{
+  "name": "login-node",
+  "version": "1.0.0",
+  "description": "login page",
+  "main": "script.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "swalimnr",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "child-process": "^1.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "morgan": "^1.10.1",
+    "nocache": "^4.0.0"
+  }
+}
